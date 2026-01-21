@@ -30,7 +30,7 @@ Wykonaj poniższe polecenia w podanej kolejności:
 ```bash
 # 1) Aplikacja mobilna (w katalogu głównym projektu)
 npm install
-npx expo start
+npx expo start -c --tunnel
 
 # 2 Backend REST API (w drugim terminalu)
 cd server
